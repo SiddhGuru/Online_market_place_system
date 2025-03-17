@@ -1,0 +1,90 @@
+/* frontend/src/styles/HomePage.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('farmer6.jpg'); /* Path to yobackground image */
+    background-size: cover; /* Ensure the image covers the container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repetition */
+    
+    background-color: #e0f7fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .home-container h1 {
+    font-size: 3rem;
+    color: #121413;.home-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center; /* Center-align text */
+      color: white; /* Adjust text color for better visibility */
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    
+    .home-container h1 {
+      font-size: 3.5rem; /* Slightly larger font size for emphasis */
+      color: #ffffff; /* White text for better visibility on the background */
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add a subtle shadow for readability */
+      margin-bottom: 20px;
+    }
+    
+    .home-container p {
+      font-size: 1.5rem; /* Increased font size */
+      color: #f0f0f0; /* Light gray text for contrast */
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Add subtle shadow for readability */
+    }
+    
+    .home-links {
+      display: flex;
+      gap: 30px; /* Increase gap for better spacing */
+    }
+    
+    .home-links a {
+      text-decoration: none;
+      color: #ffeb3b; /* Bright yellow for contrast */
+      font-size: 1.5rem; /* Increased font size */
+      padding: 10px 20px; /* Add padding for a button-like appearance */
+      border: 2px solid #ffeb3b; /* Border matching the text color */
+      border-radius: 5px; /* Rounded corners */
+      transition: all 0.3s ease; /* Smooth transition for hover effect */
+    }
+    
+    .home-links a:hover {
+      color: #ffc107; /* Slightly darker yellow on hover */
+      background-color: rgba(255, 235, 59, 0.2); /* Add a translucent background */
+      border-color: #ffc107; /* Match border color with hover color */
+      transform: scale(1.1); /* Slightly enlarge the link on hover */
+    }
+    
+  }
+  
+  .home-container p {
+    font-size: 1.2rem;
+    color: #004d40;
+    margin-bottom: 20px;
+  }
+  
+  .home-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .home-links a {
+    text-decoration: none;
+    color: #4caf50;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .home-links a:hover {
+    color: #388e3c;
+  }

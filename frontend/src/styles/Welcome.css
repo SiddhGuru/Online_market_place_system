@@ -1,0 +1,51 @@
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  text-align: center;
+  background-image: url('farmer5.jpg'); /* Add your background image */
+  background-size: cover; /* Ensure the image covers the entire area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+/* Styles for the Welcome page content */
+.welcome-content h1 {
+  font-size: 3rem;
+  color: #ffffff; /* White text for better contrast with the background */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add subtle shadow for better readability */
+}
+
+.welcome-content h2 {
+  font-size: 1.2rem;
+  color: #ffffff; /* White text for better contrast with the background */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Add subtle shadow for better readability */
+}
+
+/* Styling for Sign Up and Sign In boxes */
+.welcome-links {
+  margin-top: 30px;
+  display: flex;
+  gap: 40px; /* Space between the boxes */
+}
+
+.welcome-links a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  background-color: #4caf50;
+  padding: 15px 30px; /* Add padding for the box look */
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a slight shadow for depth */
+}
+
+.welcome-links a:hover {
+  background-color: #388e3c;
+  transform: scale(1.1); /* Slightly enlarge the box on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}

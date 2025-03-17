@@ -1,0 +1,14 @@
+/* frontend/src/styles/FarmerDashboard.css */
+
+h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  

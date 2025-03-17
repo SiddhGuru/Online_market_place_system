@@ -1,0 +1,61 @@
+.signin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('signup.jpg'); /* Path to your background image */
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.9); /* Slight transparency for better readability */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signin-form input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.signin-form button {
+  padding: 10px;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.signin-form button:hover {
+  background-color: #004d40;
+}
+
+.signin-form button:disabled {
+  background-color: #80cbc4; /* Greyish-green for disabled state */
+  cursor: not-allowed;
+}
+
+.button-clicked {
+  background-color: #004d40;
+  transform: scale(0.95); /* Slightly shrink on click */
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
